@@ -16,7 +16,4 @@ angular.module('gapApp')
     ];
 	this.message = 'Hello world';
     $scope.message = this.message;
-	this.getMessage = function(){
-		return this.message;		
-	};
   });
