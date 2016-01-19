@@ -21,6 +21,7 @@ describe('Controller: MainCtrl', function () {
     expect(MainCtrl.awesomeThings.length).toBe(3);
   });
   it('should display hello world', function () {
+    //debugger;
     expect(MainCtrl.message.length).toBe(11);
   });
 });
